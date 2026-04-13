@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# VS Code/JetBrains/PyCharm/IDE
+.vscode/
+.idea/
+*.swp
+
+# Env files (MUY IMPORTANTE)
+.env
+.env.*
+
+# Docker stuff
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# MySQL/MariaDB dump
+*.sql
+
+# Node stuff 
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Frontend build
+dist/
+build/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+pytest_cache/
+
+# Others
+*.orig
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+git rm --cached -r __pycache__/
+git rm --cached *.pyc

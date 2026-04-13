@@ -1,0 +1,28 @@
+para abrir
+ bash
+  docker-compose exec backend bash
+  
+  baja los contenedores y borra el volumen
+  docker-compose down -v
+
+levanta los contenedores
+  docker-compose up -d
+
+crear superusuario base
+python manage.py createsuperuser
+
+consola django
+python manage.py shell
+
+
+migraciones
+
+python manage.py makemigrations
+python manage.py migrate
+borrar migraciones viejas rm core/migrations/00*.py
+
+
+python manage.py migrate --fake core 0001
+
+
+docker-compose up --build
